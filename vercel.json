@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "outputDirectory": ".",
+  "routes": [
+    { "src": "/", "dest": "/search.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
